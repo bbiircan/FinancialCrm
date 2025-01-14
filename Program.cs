@@ -13,7 +13,7 @@ namespace FinancialCrm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmPayments());
+            Application.Run(new FrmDashboard());
         }
     }
 }
