@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnDashboardForm = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.btnBillForm = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCategoriesForm = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -70,30 +70,31 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
-            this.panel1.Controls.Add(this.button8);
+            this.panel1.Controls.Add(this.btnLogout);
             this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.button6);
+            this.panel1.Controls.Add(this.btnDashboardForm);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.btnBillForm);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnCategoriesForm);
             this.panel1.Location = new System.Drawing.Point(0, 36);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(220, 452);
             this.panel1.TabIndex = 0;
             // 
-            // button8
+            // btnLogout
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
-            this.button8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(19, 367);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(186, 44);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Logout";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnLogout.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnLogout.ForeColor = System.Drawing.Color.White;
+            this.btnLogout.Location = new System.Drawing.Point(19, 367);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(186, 44);
+            this.btnLogout.TabIndex = 7;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // button7
             // 
@@ -107,17 +108,18 @@
             this.button7.Text = "Settings";
             this.button7.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btnDashboardForm
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
-            this.button6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(19, 267);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(186, 44);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "Dashboard";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btnDashboardForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnDashboardForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnDashboardForm.ForeColor = System.Drawing.Color.White;
+            this.btnDashboardForm.Location = new System.Drawing.Point(19, 267);
+            this.btnDashboardForm.Name = "btnDashboardForm";
+            this.btnDashboardForm.Size = new System.Drawing.Size(186, 44);
+            this.btnDashboardForm.TabIndex = 5;
+            this.btnDashboardForm.Text = "Dashboard";
+            this.btnDashboardForm.UseVisualStyleBackColor = false;
+            this.btnDashboardForm.Click += new System.EventHandler(this.btnDashboardForm_Click);
             // 
             // button5
             // 
@@ -168,17 +170,17 @@
             this.button2.Text = "Banks";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnCategoriesForm
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
-            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(19, 17);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(186, 44);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Categories";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCategoriesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnCategoriesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCategoriesForm.ForeColor = System.Drawing.Color.White;
+            this.btnCategoriesForm.Location = new System.Drawing.Point(19, 17);
+            this.btnCategoriesForm.Name = "btnCategoriesForm";
+            this.btnCategoriesForm.Size = new System.Drawing.Size(186, 44);
+            this.btnCategoriesForm.TabIndex = 0;
+            this.btnCategoriesForm.Text = "Categories";
+            this.btnCategoriesForm.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 
@@ -456,10 +458,10 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnCategoriesForm;
+        private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnDashboardForm;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btnBillForm;
         private System.Windows.Forms.Button button3;
