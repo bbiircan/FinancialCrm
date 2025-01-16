@@ -181,6 +181,7 @@
             this.btnCategoriesForm.TabIndex = 0;
             this.btnCategoriesForm.Text = "Categories";
             this.btnCategoriesForm.UseVisualStyleBackColor = false;
+            this.btnCategoriesForm.Click += new System.EventHandler(this.btnCategoriesForm_Click);
             // 
             // panel2
             // 

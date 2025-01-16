@@ -1,8 +1,8 @@
 ﻿using FinancialCrm.Models;
 using System;
+using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using System.Windows.Forms.DataVisualization.Charting;
 
 namespace FinancialCrm
 {
@@ -46,6 +46,7 @@ namespace FinancialCrm
             chart2.Series.Clear();
             var series2 = chart2.Series.Add("Invoices");
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series2.IsValueShownAsLabel = true;
 
             foreach (var item in billData)
             {
