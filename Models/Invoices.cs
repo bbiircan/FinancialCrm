@@ -12,7 +12,7 @@ namespace FinancialCrm.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Bills
+    public partial class Invoices
     {
         public int BillId { get; set; }
         public string BillTitle { get; set; }

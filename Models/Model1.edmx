@@ -25,7 +25,14 @@
           <Property Name="BankTitle" Type="nvarchar" MaxLength="50" />
           <Property Name="BankBalance" Type="decimal" Precision="18" Scale="2" />
         </EntityType>
-        <EntityType Name="Bills">
+        <EntityType Name="Categories">
+          <Key>
+            <PropertyRef Name="CategoryId" />
+          </Key>
+          <Property Name="CategoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CategoryName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Invoices">
           <Key>
             <PropertyRef Name="BillId" />
           </Key>
@@ -33,13 +40,6 @@
           <Property Name="BillTitle" Type="nvarchar" MaxLength="50" />
           <Property Name="BillAmount" Type="decimal" Precision="18" Scale="2" />
           <Property Name="BillPeriod" Type="nvarchar" MaxLength="50" />
-        </EntityType>
-        <EntityType Name="Categories">
-          <Key>
-            <PropertyRef Name="CategoryId" />
-          </Key>
-          <Property Name="CategoryId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="CategoryName" Type="nvarchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="Spendings">
           <Key>
@@ -96,8 +96,8 @@
         <EntityContainer Name="FinancialCrmDbModelStoreContainer">
           <EntitySet Name="BankProcesses" EntityType="Self.BankProcesses" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Banks" EntityType="Self.Banks" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Bills" EntityType="Self.Bills" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Invoices" EntityType="Self.Invoices" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Spendings" EntityType="Self.Spendings" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
@@ -135,15 +135,6 @@
           <Property Name="BankTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="BankBalance" Type="Decimal" Precision="18" Scale="2" />
           <NavigationProperty Name="BankProcesses" Relationship="Self.FK_BankProcesses_Banks" FromRole="Banks" ToRole="BankProcesses" />
-        </EntityType>
-        <EntityType Name="Bills">
-          <Key>
-            <PropertyRef Name="BillId" />
-          </Key>
-          <Property Name="BillId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="BillTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="BillAmount" Type="Decimal" Precision="18" Scale="2" />
-          <Property Name="BillPeriod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Categories">
           <Key>
@@ -201,7 +192,6 @@
         <EntityContainer Name="FinancialCrmDbEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="BankProcesses" EntityType="Self.BankProcesses" />
           <EntitySet Name="Banks" EntityType="Self.Banks" />
-          <EntitySet Name="Bills" EntityType="Self.Bills" />
           <EntitySet Name="Categories" EntityType="Self.Categories" />
           <EntitySet Name="Spendings" EntityType="Self.Spendings" />
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
@@ -214,6 +204,7 @@
             <End Role="Spendings" EntitySet="Spendings" />
           </AssociationSet>
           <EntitySet Name="Users" EntityType="FinancialCrmDbModel.Users" />
+          <EntitySet Name="Invoices" EntityType="FinancialCrmDbModel.Invoices" />
         </EntityContainer>
         <EntityType Name="Users">
           <Key>
@@ -222,6 +213,15 @@
           <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="UserNumber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Invoices">
+          <Key>
+            <PropertyRef Name="BillId" />
+          </Key>
+          <Property Name="BillId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BillTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="BillAmount" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="BillPeriod" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -248,16 +248,6 @@
                 <ScalarProperty Name="BankAccountNumber" ColumnName="BankAccountNumber" />
                 <ScalarProperty Name="BankTitle" ColumnName="BankTitle" />
                 <ScalarProperty Name="BankBalance" ColumnName="BankBalance" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Bills">
-            <EntityTypeMapping TypeName="FinancialCrmDbModel.Bills">
-              <MappingFragment StoreEntitySet="Bills">
-                <ScalarProperty Name="BillId" ColumnName="BillId" />
-                <ScalarProperty Name="BillTitle" ColumnName="BillTitle" />
-                <ScalarProperty Name="BillAmount" ColumnName="BillAmount" />
-                <ScalarProperty Name="BillPeriod" ColumnName="BillPeriod" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -297,6 +287,16 @@
                 <ScalarProperty Name="Password" ColumnName="Password" />
                 <ScalarProperty Name="UserNumber" ColumnName="UserNumber" />
                 <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Invoices">
+            <EntityTypeMapping TypeName="FinancialCrmDbModel.Invoices">
+              <MappingFragment StoreEntitySet="Invoices">
+                <ScalarProperty Name="BillPeriod" ColumnName="BillPeriod" />
+                <ScalarProperty Name="BillAmount" ColumnName="BillAmount" />
+                <ScalarProperty Name="BillTitle" ColumnName="BillTitle" />
+                <ScalarProperty Name="BillId" ColumnName="BillId" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

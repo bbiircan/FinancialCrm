@@ -15,13 +15,13 @@ namespace FinancialCrm
         FinancialCrmDbEntities db = new FinancialCrmDbEntities();
         private void FrmPayments_Load(object sender, EventArgs e)
         {
-            var values = db.Bills.ToList();
+            var values = db.Invoices.ToList();
             dataGridView1.DataSource = values;
         }
 
         private void btnBillList_Click(object sender, EventArgs e)
         {
-            var values = db.Bills.ToList();
+            var values = db.Invoices.ToList();
             dataGridView1.DataSource = values;
         }
 
@@ -31,15 +31,15 @@ namespace FinancialCrm
             decimal amount = decimal.Parse(txtBillAmount.Text);
             string period = txtBillPeriod.Text;
 
-            Bills bills = new Bills();
-            bills.BillTitle = title;
-            bills.BillAmount = amount;
-            bills.BillPeriod = period;
-            db.Bills.Add(bills);
+            Invoices invoices = new Invoices();
+            invoices.BillTitle = title;
+            invoices.BillAmount = amount;
+            invoices.BillPeriod = period;
+            db.Invoices.Add(invoices);
             db.SaveChanges();
-            MessageBox.Show("New payment has been added to the system.", "Payment & Bills", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("New payment has been added to the system.", "Payment & Invoices", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            var values = db.Bills.ToList();
+            var values = db.Invoices.ToList();
             dataGridView1.DataSource = values;
 
         }
@@ -47,12 +47,12 @@ namespace FinancialCrm
         private void btnRemoveBill_Click(object sender, EventArgs e)
         {
             int id = int.Parse(txtBillId.Text);
-            var removeValue = db.Bills.Find(id);
-            db.Bills.Remove(removeValue);
+            var removeValue = db.Invoices.Find(id);
+            db.Invoices.Remove(removeValue);
             db.SaveChanges();
-            MessageBox.Show("Payment has been removed from the system.", "Payment & Bills", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Payment has been removed from the system.", "Payment & Invoices", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            var values = db.Bills.ToList();
+            var values = db.Invoices.ToList();
             dataGridView1.DataSource = values;
         }
 
@@ -63,15 +63,15 @@ namespace FinancialCrm
             string period = txtBillPeriod.Text;
             int id = int.Parse(txtBillId.Text);
 
-            var values = db.Bills.Find(id);
+            var values = db.Invoices.Find(id);
 
             values.BillTitle = title;
             values.BillAmount = amount;
             values.BillPeriod = period;
             db.SaveChanges();
-            MessageBox.Show("The payment update process has been successfully completed.", "Payment & Bills", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("The payment update process has been successfully completed.", "Payment & Invoices", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            var values2 = db.Bills.ToList();
+            var values2 = db.Invoices.ToList();
             dataGridView1.DataSource = values2;
         }
 

@@ -1,6 +1,5 @@
 ﻿using FinancialCrm.Models;
 using System;
-using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -38,7 +37,7 @@ namespace FinancialCrm
             }
 
             // chart 2 codes
-            var billData = db.Bills.Select(x => new
+            var billData = db.Invoices.Select(x => new
             {
                 x.BillTitle,
                 x.BillAmount
@@ -60,7 +59,7 @@ namespace FinancialCrm
             count++;
             if (count % 4 == 1)
             {
-                var electricBill = db.Bills.Where(x=>x.BillTitle == "Electric Bill").Select(y=>y.BillAmount).FirstOrDefault();
+                var electricBill = db.Invoices.Where(x=>x.BillTitle == "Electric Bill").Select(y=>y.BillAmount).FirstOrDefault();
                 lblBillTitle.Text = "Electric Bill";
                 lblBillAmount.Text = electricBill.ToString() + " ₺";
 
@@ -68,21 +67,21 @@ namespace FinancialCrm
 
             if (count % 4 == 2)
             {
-                var phoneBill = db.Bills.Where(x=>x.BillTitle == "Phone Bill").Select(y=>y.BillAmount).FirstOrDefault();
+                var phoneBill = db.Invoices.Where(x=>x.BillTitle == "Phone Bill").Select(y=>y.BillAmount).FirstOrDefault();
                 lblBillTitle.Text = "Phone Bill";
                 lblBillAmount.Text= phoneBill.ToString() + " ₺";
             }
 
             if (count % 4 == 3) 
             {
-                var waterBill = db.Bills.Where(x=>x.BillTitle == "Water Bill").Select(y=>y.BillAmount).FirstOrDefault();
+                var waterBill = db.Invoices.Where(x=>x.BillTitle == "Water Bill").Select(y=>y.BillAmount).FirstOrDefault();
                 lblBillTitle.Text = "Water Bill";
                 lblBillAmount.Text = waterBill.ToString() + " ₺";
             }
 
             if (count % 4 == 0)
             {
-                var internetBill = db.Bills.Where(x => x.BillTitle == "Internet Bill").Select(y => y.BillAmount).FirstOrDefault();
+                var internetBill = db.Invoices.Where(x => x.BillTitle == "Internet Bill").Select(y => y.BillAmount).FirstOrDefault();
                 lblBillTitle.Text = "Internet Bill";
                 lblBillAmount.Text = internetBill.ToString() + " ₺";
             }

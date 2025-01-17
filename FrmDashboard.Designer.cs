@@ -44,14 +44,14 @@
             this.lblTotalBalance = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnSettingsForm = new System.Windows.Forms.Button();
             this.btnDashboardForm = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.btnBillForm = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnAccountActivitiesForm = new System.Windows.Forms.Button();
+            this.btnExpensesForm = new System.Windows.Forms.Button();
+            this.btnInvoicesForm = new System.Windows.Forms.Button();
             this.btnBanksForm = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCategoriesForm = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -171,29 +171,29 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Dashboard / Overview Form";
             // 
-            // button8
+            // btnLogout
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
-            this.button8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(19, 367);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(186, 44);
-            this.button8.TabIndex = 7;
-            this.button8.Text = "Logout";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnLogout.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnLogout.ForeColor = System.Drawing.Color.White;
+            this.btnLogout.Location = new System.Drawing.Point(19, 367);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(186, 44);
+            this.btnLogout.TabIndex = 7;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btnSettingsForm
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
-            this.button7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(19, 317);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(186, 44);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Settings";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btnSettingsForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnSettingsForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSettingsForm.ForeColor = System.Drawing.Color.White;
+            this.btnSettingsForm.Location = new System.Drawing.Point(19, 317);
+            this.btnSettingsForm.Name = "btnSettingsForm";
+            this.btnSettingsForm.Size = new System.Drawing.Size(186, 44);
+            this.btnSettingsForm.TabIndex = 6;
+            this.btnSettingsForm.Text = "Settings";
+            this.btnSettingsForm.UseVisualStyleBackColor = false;
             // 
             // btnDashboardForm
             // 
@@ -207,41 +207,41 @@
             this.btnDashboardForm.Text = "Dashboard";
             this.btnDashboardForm.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnAccountActivitiesForm
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
-            this.button5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(19, 217);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(186, 44);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Account Activities";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnAccountActivitiesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnAccountActivitiesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAccountActivitiesForm.ForeColor = System.Drawing.Color.White;
+            this.btnAccountActivitiesForm.Location = new System.Drawing.Point(19, 217);
+            this.btnAccountActivitiesForm.Name = "btnAccountActivitiesForm";
+            this.btnAccountActivitiesForm.Size = new System.Drawing.Size(186, 44);
+            this.btnAccountActivitiesForm.TabIndex = 4;
+            this.btnAccountActivitiesForm.Text = "Account Activities";
+            this.btnAccountActivitiesForm.UseVisualStyleBackColor = false;
             // 
-            // btnBillForm
+            // btnExpensesForm
             // 
-            this.btnBillForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
-            this.btnBillForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnBillForm.ForeColor = System.Drawing.Color.White;
-            this.btnBillForm.Location = new System.Drawing.Point(19, 167);
-            this.btnBillForm.Name = "btnBillForm";
-            this.btnBillForm.Size = new System.Drawing.Size(186, 44);
-            this.btnBillForm.TabIndex = 3;
-            this.btnBillForm.Text = "Expenses";
-            this.btnBillForm.UseVisualStyleBackColor = false;
+            this.btnExpensesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnExpensesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnExpensesForm.ForeColor = System.Drawing.Color.White;
+            this.btnExpensesForm.Location = new System.Drawing.Point(19, 167);
+            this.btnExpensesForm.Name = "btnExpensesForm";
+            this.btnExpensesForm.Size = new System.Drawing.Size(186, 44);
+            this.btnExpensesForm.TabIndex = 3;
+            this.btnExpensesForm.Text = "Expenses";
+            this.btnExpensesForm.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnInvoicesForm
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
-            this.button3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(19, 117);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(186, 44);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Bills";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnInvoicesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnInvoicesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnInvoicesForm.ForeColor = System.Drawing.Color.White;
+            this.btnInvoicesForm.Location = new System.Drawing.Point(19, 117);
+            this.btnInvoicesForm.Name = "btnInvoicesForm";
+            this.btnInvoicesForm.Size = new System.Drawing.Size(186, 44);
+            this.btnInvoicesForm.TabIndex = 2;
+            this.btnInvoicesForm.Text = "Invoices";
+            this.btnInvoicesForm.UseVisualStyleBackColor = false;
             // 
             // btnBanksForm
             // 
@@ -256,17 +256,17 @@
             this.btnBanksForm.UseVisualStyleBackColor = false;
             this.btnBanksForm.Click += new System.EventHandler(this.btnBanksForm_Click);
             // 
-            // button1
+            // btnCategoriesForm
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
-            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(19, 17);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(186, 44);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Categories";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnCategoriesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnCategoriesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCategoriesForm.ForeColor = System.Drawing.Color.White;
+            this.btnCategoriesForm.Location = new System.Drawing.Point(19, 17);
+            this.btnCategoriesForm.Name = "btnCategoriesForm";
+            this.btnCategoriesForm.Size = new System.Drawing.Size(186, 44);
+            this.btnCategoriesForm.TabIndex = 0;
+            this.btnCategoriesForm.Text = "Categories";
+            this.btnCategoriesForm.UseVisualStyleBackColor = false;
             // 
             // panel4
             // 
@@ -290,14 +290,14 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
-            this.panel1.Controls.Add(this.button8);
-            this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.btnLogout);
+            this.panel1.Controls.Add(this.btnSettingsForm);
             this.panel1.Controls.Add(this.btnDashboardForm);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.btnBillForm);
-            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.btnAccountActivitiesForm);
+            this.panel1.Controls.Add(this.btnExpensesForm);
+            this.panel1.Controls.Add(this.btnInvoicesForm);
             this.panel1.Controls.Add(this.btnBanksForm);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.btnCategoriesForm);
             this.panel1.Location = new System.Drawing.Point(0, 39);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(220, 452);
@@ -431,14 +431,14 @@
         private System.Windows.Forms.Label lblTotalBalance;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnLogout;
+        private System.Windows.Forms.Button btnSettingsForm;
         private System.Windows.Forms.Button btnDashboardForm;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button btnBillForm;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnAccountActivitiesForm;
+        private System.Windows.Forms.Button btnExpensesForm;
+        private System.Windows.Forms.Button btnInvoicesForm;
         private System.Windows.Forms.Button btnBanksForm;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCategoriesForm;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;

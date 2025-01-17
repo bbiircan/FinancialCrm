@@ -10,8 +10,7 @@
 namespace FinancialCrm.Models
 {
     using System;
-    using System.Collections.Generic;
-    
+
     public partial class Spendings
     {
         public int SpendingId { get; set; }

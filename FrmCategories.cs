@@ -72,13 +72,17 @@ namespace FinancialCrm
             this.Close();
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void btnLogout_Click(object sender, EventArgs e)
         {
             FrmLogin frm = new FrmLogin();
             frm.Show();
             this.Close();
         }
 
+        private void btnInvoicesForm_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
 
