@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.lblLastReceivedRemittanceAmount = new System.Windows.Forms.Label();
             this.lblAkbank = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -174,6 +174,7 @@
             // btnLogout
             // 
             this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogout.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnLogout.ForeColor = System.Drawing.Color.White;
             this.btnLogout.Location = new System.Drawing.Point(19, 367);
@@ -182,10 +183,12 @@
             this.btnLogout.TabIndex = 7;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // btnSettingsForm
             // 
             this.btnSettingsForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnSettingsForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSettingsForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSettingsForm.ForeColor = System.Drawing.Color.White;
             this.btnSettingsForm.Location = new System.Drawing.Point(19, 317);
@@ -198,6 +201,7 @@
             // btnDashboardForm
             // 
             this.btnDashboardForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnDashboardForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDashboardForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnDashboardForm.ForeColor = System.Drawing.Color.White;
             this.btnDashboardForm.Location = new System.Drawing.Point(19, 267);
@@ -210,6 +214,7 @@
             // btnAccountActivitiesForm
             // 
             this.btnAccountActivitiesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnAccountActivitiesForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAccountActivitiesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAccountActivitiesForm.ForeColor = System.Drawing.Color.White;
             this.btnAccountActivitiesForm.Location = new System.Drawing.Point(19, 217);
@@ -222,6 +227,7 @@
             // btnExpensesForm
             // 
             this.btnExpensesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnExpensesForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExpensesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnExpensesForm.ForeColor = System.Drawing.Color.White;
             this.btnExpensesForm.Location = new System.Drawing.Point(19, 167);
@@ -230,10 +236,12 @@
             this.btnExpensesForm.TabIndex = 3;
             this.btnExpensesForm.Text = "Expenses";
             this.btnExpensesForm.UseVisualStyleBackColor = false;
+            this.btnExpensesForm.Click += new System.EventHandler(this.btnExpensesForm_Click);
             // 
             // btnInvoicesForm
             // 
             this.btnInvoicesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnInvoicesForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInvoicesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnInvoicesForm.ForeColor = System.Drawing.Color.White;
             this.btnInvoicesForm.Location = new System.Drawing.Point(19, 117);
@@ -242,10 +250,12 @@
             this.btnInvoicesForm.TabIndex = 2;
             this.btnInvoicesForm.Text = "Invoices";
             this.btnInvoicesForm.UseVisualStyleBackColor = false;
+            this.btnInvoicesForm.Click += new System.EventHandler(this.btnInvoicesForm_Click);
             // 
             // btnBanksForm
             // 
             this.btnBanksForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnBanksForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBanksForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnBanksForm.ForeColor = System.Drawing.Color.White;
             this.btnBanksForm.Location = new System.Drawing.Point(19, 67);
@@ -259,6 +269,7 @@
             // btnCategoriesForm
             // 
             this.btnCategoriesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnCategoriesForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCategoriesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnCategoriesForm.ForeColor = System.Drawing.Color.White;
             this.btnCategoriesForm.Location = new System.Drawing.Point(19, 17);
@@ -267,6 +278,7 @@
             this.btnCategoriesForm.TabIndex = 0;
             this.btnCategoriesForm.Text = "Categories";
             this.btnCategoriesForm.UseVisualStyleBackColor = false;
+            this.btnCategoriesForm.Click += new System.EventHandler(this.btnCategoriesForm_Click);
             // 
             // panel4
             // 
@@ -311,16 +323,16 @@
             // 
             // chart1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
+            chartArea7.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea7);
+            legend7.Name = "Legend1";
+            this.chart1.Legends.Add(legend7);
             this.chart1.Location = new System.Drawing.Point(228, 231);
             this.chart1.Name = "chart1";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
+            series7.ChartArea = "ChartArea1";
+            series7.Legend = "Legend1";
+            series7.Name = "Series1";
+            this.chart1.Series.Add(series7);
             this.chart1.Size = new System.Drawing.Size(329, 246);
             this.chart1.TabIndex = 13;
             this.chart1.Text = "chart1";
@@ -369,17 +381,17 @@
             // 
             // chart2
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chart2.Legends.Add(legend2);
+            chartArea8.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea8);
+            legend8.Name = "Legend1";
+            this.chart2.Legends.Add(legend8);
             this.chart2.Location = new System.Drawing.Point(580, 231);
             this.chart2.Name = "chart2";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series2.Legend = "Legend1";
-            series2.Name = "Invoices";
-            this.chart2.Series.Add(series2);
+            series8.ChartArea = "ChartArea1";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series8.Legend = "Legend1";
+            series8.Name = "Invoices";
+            this.chart2.Series.Add(series8);
             this.chart2.Size = new System.Drawing.Size(329, 246);
             this.chart2.TabIndex = 16;
             this.chart2.Text = "chart2";

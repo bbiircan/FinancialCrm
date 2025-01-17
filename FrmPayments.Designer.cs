@@ -63,19 +63,20 @@
             this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
             this.btnLogout.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnLogout.ForeColor = System.Drawing.Color.White;
-            this.btnLogout.Location = new System.Drawing.Point(19, 367);
+            this.btnLogout.Location = new System.Drawing.Point(19, 398);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.Size = new System.Drawing.Size(186, 44);
             this.btnLogout.TabIndex = 7;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // btnSettingsForm
             // 
             this.btnSettingsForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
             this.btnSettingsForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSettingsForm.ForeColor = System.Drawing.Color.White;
-            this.btnSettingsForm.Location = new System.Drawing.Point(19, 317);
+            this.btnSettingsForm.Location = new System.Drawing.Point(19, 348);
             this.btnSettingsForm.Name = "btnSettingsForm";
             this.btnSettingsForm.Size = new System.Drawing.Size(186, 44);
             this.btnSettingsForm.TabIndex = 6;
@@ -87,19 +88,20 @@
             this.btnDashboardForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
             this.btnDashboardForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnDashboardForm.ForeColor = System.Drawing.Color.White;
-            this.btnDashboardForm.Location = new System.Drawing.Point(19, 267);
+            this.btnDashboardForm.Location = new System.Drawing.Point(19, 298);
             this.btnDashboardForm.Name = "btnDashboardForm";
             this.btnDashboardForm.Size = new System.Drawing.Size(186, 44);
             this.btnDashboardForm.TabIndex = 5;
             this.btnDashboardForm.Text = "Dashboard";
             this.btnDashboardForm.UseVisualStyleBackColor = false;
+            this.btnDashboardForm.Click += new System.EventHandler(this.btnDashboardForm_Click);
             // 
             // btnAccountActivitiesForm
             // 
             this.btnAccountActivitiesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
             this.btnAccountActivitiesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAccountActivitiesForm.ForeColor = System.Drawing.Color.White;
-            this.btnAccountActivitiesForm.Location = new System.Drawing.Point(19, 217);
+            this.btnAccountActivitiesForm.Location = new System.Drawing.Point(19, 248);
             this.btnAccountActivitiesForm.Name = "btnAccountActivitiesForm";
             this.btnAccountActivitiesForm.Size = new System.Drawing.Size(186, 44);
             this.btnAccountActivitiesForm.TabIndex = 4;
@@ -111,31 +113,33 @@
             this.btnExpensesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
             this.btnExpensesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnExpensesForm.ForeColor = System.Drawing.Color.White;
-            this.btnExpensesForm.Location = new System.Drawing.Point(19, 167);
+            this.btnExpensesForm.Location = new System.Drawing.Point(19, 198);
             this.btnExpensesForm.Name = "btnExpensesForm";
             this.btnExpensesForm.Size = new System.Drawing.Size(186, 44);
             this.btnExpensesForm.TabIndex = 3;
             this.btnExpensesForm.Text = "Expenses";
             this.btnExpensesForm.UseVisualStyleBackColor = false;
+            this.btnExpensesForm.Click += new System.EventHandler(this.btnExpensesForm_Click);
             // 
             // btnInvoicesForm
             // 
             this.btnInvoicesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
             this.btnInvoicesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnInvoicesForm.ForeColor = System.Drawing.Color.White;
-            this.btnInvoicesForm.Location = new System.Drawing.Point(19, 117);
+            this.btnInvoicesForm.Location = new System.Drawing.Point(19, 148);
             this.btnInvoicesForm.Name = "btnInvoicesForm";
             this.btnInvoicesForm.Size = new System.Drawing.Size(186, 44);
             this.btnInvoicesForm.TabIndex = 2;
             this.btnInvoicesForm.Text = "Invoices";
             this.btnInvoicesForm.UseVisualStyleBackColor = false;
+            this.btnInvoicesForm.Click += new System.EventHandler(this.btnInvoicesForm_Click);
             // 
             // btnBanksForm
             // 
             this.btnBanksForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
             this.btnBanksForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnBanksForm.ForeColor = System.Drawing.Color.White;
-            this.btnBanksForm.Location = new System.Drawing.Point(19, 67);
+            this.btnBanksForm.Location = new System.Drawing.Point(19, 98);
             this.btnBanksForm.Name = "btnBanksForm";
             this.btnBanksForm.Size = new System.Drawing.Size(186, 44);
             this.btnBanksForm.TabIndex = 1;
@@ -148,12 +152,13 @@
             this.btnCategoriesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
             this.btnCategoriesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnCategoriesForm.ForeColor = System.Drawing.Color.White;
-            this.btnCategoriesForm.Location = new System.Drawing.Point(19, 17);
+            this.btnCategoriesForm.Location = new System.Drawing.Point(19, 48);
             this.btnCategoriesForm.Name = "btnCategoriesForm";
             this.btnCategoriesForm.Size = new System.Drawing.Size(186, 44);
             this.btnCategoriesForm.TabIndex = 0;
             this.btnCategoriesForm.Text = "Categories";
             this.btnCategoriesForm.UseVisualStyleBackColor = false;
+            this.btnCategoriesForm.Click += new System.EventHandler(this.btnCategoriesForm_Click);
             // 
             // panel1
             // 
@@ -333,6 +338,7 @@
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(698, 274);
@@ -347,6 +353,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Name = "FrmPayments";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Payment & Bill Form";

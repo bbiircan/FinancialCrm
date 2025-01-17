@@ -6,10 +6,6 @@ namespace FinancialCrm
 {
     public partial class FrmExpenses : Form
     {
-        private const int PageSize = 8;
-        private int currentPageIndex = 1;
-        private int totalPages = 0;
-        private int totalRows = 0;
         public FrmExpenses()
         {
             InitializeComponent();
@@ -27,6 +23,41 @@ namespace FinancialCrm
             }).ToList();
 
             dataGridView1.DataSource = expenses;
+        }
+
+        private void btnCategoriesForm_Click(object sender, System.EventArgs e)
+        {
+            FrmCategories frm = new FrmCategories();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnBanksForm_Click(object sender, System.EventArgs e)
+        {
+            FrmBanks frm = new FrmBanks();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnDashboardForm_Click(object sender, System.EventArgs e)
+        {
+            FrmDashboard frm = new FrmDashboard();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnLogout_Click(object sender, System.EventArgs e)
+        {
+            FrmLogin frm = new FrmLogin();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnInvoicesForm_Click(object sender, System.EventArgs e)
+        {
+            FrmPayments frm = new FrmPayments();
+            frm.Show();
+            this.Hide();
         }
     }
 }

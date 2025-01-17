@@ -85,6 +85,7 @@
             // btnLogout
             // 
             this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogout.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnLogout.ForeColor = System.Drawing.Color.White;
             this.btnLogout.Location = new System.Drawing.Point(19, 370);
@@ -98,6 +99,7 @@
             // btnSettingsForm
             // 
             this.btnSettingsForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnSettingsForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSettingsForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSettingsForm.ForeColor = System.Drawing.Color.White;
             this.btnSettingsForm.Location = new System.Drawing.Point(19, 320);
@@ -110,6 +112,7 @@
             // btnDashboardForm
             // 
             this.btnDashboardForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnDashboardForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDashboardForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnDashboardForm.ForeColor = System.Drawing.Color.White;
             this.btnDashboardForm.Location = new System.Drawing.Point(19, 270);
@@ -123,6 +126,7 @@
             // btnAccountActivitiesForm
             // 
             this.btnAccountActivitiesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnAccountActivitiesForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAccountActivitiesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAccountActivitiesForm.ForeColor = System.Drawing.Color.White;
             this.btnAccountActivitiesForm.Location = new System.Drawing.Point(19, 220);
@@ -135,6 +139,7 @@
             // btnExpensesForm
             // 
             this.btnExpensesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnExpensesForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExpensesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnExpensesForm.ForeColor = System.Drawing.Color.White;
             this.btnExpensesForm.Location = new System.Drawing.Point(19, 170);
@@ -143,10 +148,12 @@
             this.btnExpensesForm.TabIndex = 3;
             this.btnExpensesForm.Text = "Expenses";
             this.btnExpensesForm.UseVisualStyleBackColor = false;
+            this.btnExpensesForm.Click += new System.EventHandler(this.btnExpensesForm_Click);
             // 
             // btnInvoicesForm
             // 
             this.btnInvoicesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnInvoicesForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInvoicesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnInvoicesForm.ForeColor = System.Drawing.Color.White;
             this.btnInvoicesForm.Location = new System.Drawing.Point(19, 120);
@@ -160,6 +167,7 @@
             // btnBanksForm
             // 
             this.btnBanksForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnBanksForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBanksForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnBanksForm.ForeColor = System.Drawing.Color.White;
             this.btnBanksForm.Location = new System.Drawing.Point(19, 70);
@@ -173,6 +181,7 @@
             // btnCategoriesForm
             // 
             this.btnCategoriesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnCategoriesForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCategoriesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnCategoriesForm.ForeColor = System.Drawing.Color.White;
             this.btnCategoriesForm.Location = new System.Drawing.Point(19, 20);
