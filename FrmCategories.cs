@@ -92,6 +92,13 @@ namespace FinancialCrm
             frm.Show();
             this.Close();
         }
+
+        private void btnSettingsForm_Click(object sender, EventArgs e)
+        {
+            FrmSettings frm = new FrmSettings();
+            frm.Show();
+            this.Close();
+        }
     }
 }
 

@@ -74,6 +74,7 @@
             // btnLogout
             // 
             this.btnLogout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnLogout.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLogout.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnLogout.ForeColor = System.Drawing.Color.White;
             this.btnLogout.Location = new System.Drawing.Point(19, 385);
@@ -82,10 +83,12 @@
             this.btnLogout.TabIndex = 7;
             this.btnLogout.Text = "Logout";
             this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(19, 335);
@@ -98,6 +101,7 @@
             // btnDashboardForm
             // 
             this.btnDashboardForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnDashboardForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDashboardForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnDashboardForm.ForeColor = System.Drawing.Color.White;
             this.btnDashboardForm.Location = new System.Drawing.Point(19, 285);
@@ -106,10 +110,12 @@
             this.btnDashboardForm.TabIndex = 5;
             this.btnDashboardForm.Text = "Dashboard";
             this.btnDashboardForm.UseVisualStyleBackColor = false;
+            this.btnDashboardForm.Click += new System.EventHandler(this.btnDashboardForm_Click);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Location = new System.Drawing.Point(19, 235);
@@ -122,6 +128,7 @@
             // btnExpensesForm
             // 
             this.btnExpensesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnExpensesForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnExpensesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnExpensesForm.ForeColor = System.Drawing.Color.White;
             this.btnExpensesForm.Location = new System.Drawing.Point(19, 185);
@@ -130,10 +137,12 @@
             this.btnExpensesForm.TabIndex = 3;
             this.btnExpensesForm.Text = "Expenses";
             this.btnExpensesForm.UseVisualStyleBackColor = false;
+            this.btnExpensesForm.Click += new System.EventHandler(this.btnExpensesForm_Click);
             // 
             // btnPaymentsForm
             // 
             this.btnPaymentsForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnPaymentsForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPaymentsForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnPaymentsForm.ForeColor = System.Drawing.Color.White;
             this.btnPaymentsForm.Location = new System.Drawing.Point(19, 135);
@@ -142,10 +151,12 @@
             this.btnPaymentsForm.TabIndex = 2;
             this.btnPaymentsForm.Text = "Invoices";
             this.btnPaymentsForm.UseVisualStyleBackColor = false;
+            this.btnPaymentsForm.Click += new System.EventHandler(this.btnPaymentsForm_Click);
             // 
             // btnBanksForm
             // 
             this.btnBanksForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnBanksForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnBanksForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnBanksForm.ForeColor = System.Drawing.Color.White;
             this.btnBanksForm.Location = new System.Drawing.Point(19, 85);
@@ -154,10 +165,12 @@
             this.btnBanksForm.TabIndex = 1;
             this.btnBanksForm.Text = "Banks";
             this.btnBanksForm.UseVisualStyleBackColor = false;
+            this.btnBanksForm.Click += new System.EventHandler(this.btnBanksForm_Click);
             // 
             // btnCategoriesForm
             // 
             this.btnCategoriesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnCategoriesForm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCategoriesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnCategoriesForm.ForeColor = System.Drawing.Color.White;
             this.btnCategoriesForm.Location = new System.Drawing.Point(19, 35);
@@ -166,6 +179,7 @@
             this.btnCategoriesForm.TabIndex = 0;
             this.btnCategoriesForm.Text = "Categories";
             this.btnCategoriesForm.UseVisualStyleBackColor = false;
+            this.btnCategoriesForm.Click += new System.EventHandler(this.btnCategoriesForm_Click);
             // 
             // panel2
             // 

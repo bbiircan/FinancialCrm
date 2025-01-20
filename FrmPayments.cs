@@ -116,5 +116,12 @@ namespace FinancialCrm
             frm.Show();
             this.Hide();
         }
+
+        private void btnSettingsForm_Click(object sender, EventArgs e)
+        {
+            FrmSettings frm = new FrmSettings();
+            frm.Show();
+            this.Hide();
+        }
     }
 }

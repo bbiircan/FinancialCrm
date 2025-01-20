@@ -82,6 +82,7 @@
             this.btnSettingsForm.TabIndex = 6;
             this.btnSettingsForm.Text = "Settings";
             this.btnSettingsForm.UseVisualStyleBackColor = false;
+            this.btnSettingsForm.Click += new System.EventHandler(this.btnSettingsForm_Click);
             // 
             // btnDashboardForm
             // 

@@ -43,6 +43,48 @@ namespace FinancialCrm
             MessageBox.Show("The password has been successfully updated.");
 
         }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            FrmLogin frm = new FrmLogin();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnCategoriesForm_Click(object sender, EventArgs e)
+        {
+            FrmCategories frm = new FrmCategories();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnBanksForm_Click(object sender, EventArgs e)
+        {
+            FrmBanks frm = new FrmBanks();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnPaymentsForm_Click(object sender, EventArgs e)
+        {
+            FrmPayments frm = new FrmPayments();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnExpensesForm_Click(object sender, EventArgs e)
+        {
+            FrmExpenses frm = new FrmExpenses();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnDashboardForm_Click(object sender, EventArgs e)
+        {
+            FrmDashboard frm = new FrmDashboard();
+            frm.Show();
+            this.Hide();
+        }
     }
 }
 
