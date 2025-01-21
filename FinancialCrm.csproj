@@ -102,6 +102,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAccountActivities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAccountActivities.Designer.cs">
+      <DependentUpon>FrmAccountActivities.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmBanks.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +183,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAccountActivities.resx">
+      <DependentUpon>FrmAccountActivities.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmBanks.resx">
       <DependentUpon>FrmBanks.cs</DependentUpon>
     </EmbeddedResource>
