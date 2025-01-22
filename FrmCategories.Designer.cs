@@ -136,6 +136,7 @@
             this.btnAccountActivitiesForm.TabIndex = 4;
             this.btnAccountActivitiesForm.Text = "Account Activities";
             this.btnAccountActivitiesForm.UseVisualStyleBackColor = false;
+            this.btnAccountActivitiesForm.Click += new System.EventHandler(this.btnAccountActivitiesForm_Click);
             // 
             // btnExpensesForm
             // 

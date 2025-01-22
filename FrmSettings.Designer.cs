@@ -32,7 +32,7 @@
             this.btnLogout = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnDashboardForm = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnAccountActivitiesForm = new System.Windows.Forms.Button();
             this.btnExpensesForm = new System.Windows.Forms.Button();
             this.btnPaymentsForm = new System.Windows.Forms.Button();
             this.btnBanksForm = new System.Windows.Forms.Button();
@@ -61,7 +61,7 @@
             this.panel1.Controls.Add(this.btnLogout);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.btnDashboardForm);
-            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.btnAccountActivitiesForm);
             this.panel1.Controls.Add(this.btnExpensesForm);
             this.panel1.Controls.Add(this.btnPaymentsForm);
             this.panel1.Controls.Add(this.btnBanksForm);
@@ -112,18 +112,19 @@
             this.btnDashboardForm.UseVisualStyleBackColor = false;
             this.btnDashboardForm.Click += new System.EventHandler(this.btnDashboardForm_Click);
             // 
-            // button4
+            // btnAccountActivitiesForm
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(19, 235);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(186, 44);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Account Activities";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnAccountActivitiesForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
+            this.btnAccountActivitiesForm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAccountActivitiesForm.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAccountActivitiesForm.ForeColor = System.Drawing.Color.White;
+            this.btnAccountActivitiesForm.Location = new System.Drawing.Point(19, 235);
+            this.btnAccountActivitiesForm.Name = "btnAccountActivitiesForm";
+            this.btnAccountActivitiesForm.Size = new System.Drawing.Size(186, 44);
+            this.btnAccountActivitiesForm.TabIndex = 4;
+            this.btnAccountActivitiesForm.Text = "Account Activities";
+            this.btnAccountActivitiesForm.UseVisualStyleBackColor = false;
+            this.btnAccountActivitiesForm.Click += new System.EventHandler(this.btnAccountActivitiesForm_Click);
             // 
             // btnExpensesForm
             // 
@@ -334,7 +335,7 @@
         private System.Windows.Forms.Button btnLogout;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnDashboardForm;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnAccountActivitiesForm;
         private System.Windows.Forms.Button btnExpensesForm;
         private System.Windows.Forms.Button btnPaymentsForm;
         private System.Windows.Forms.Button btnBanksForm;

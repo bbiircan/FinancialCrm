@@ -108,6 +108,7 @@
             this.btnAccountActivitiesForm.TabIndex = 4;
             this.btnAccountActivitiesForm.Text = "Account Activities";
             this.btnAccountActivitiesForm.UseVisualStyleBackColor = false;
+            this.btnAccountActivitiesForm.Click += new System.EventHandler(this.btnAccountActivitiesForm_Click);
             // 
             // btnExpensesForm
             // 
@@ -201,9 +202,9 @@
             this.btnUpdateBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(162)))), ((int)(((byte)(189)))));
             this.btnUpdateBill.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnUpdateBill.ForeColor = System.Drawing.Color.Black;
-            this.btnUpdateBill.Location = new System.Drawing.Point(537, 170);
+            this.btnUpdateBill.Location = new System.Drawing.Point(541, 170);
             this.btnUpdateBill.Name = "btnUpdateBill";
-            this.btnUpdateBill.Size = new System.Drawing.Size(142, 44);
+            this.btnUpdateBill.Size = new System.Drawing.Size(154, 44);
             this.btnUpdateBill.TabIndex = 11;
             this.btnUpdateBill.Text = "Update Payment";
             this.btnUpdateBill.UseVisualStyleBackColor = false;
@@ -214,9 +215,9 @@
             this.btnRemoveBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(162)))), ((int)(((byte)(189)))));
             this.btnRemoveBill.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnRemoveBill.ForeColor = System.Drawing.Color.Black;
-            this.btnRemoveBill.Location = new System.Drawing.Point(379, 170);
+            this.btnRemoveBill.Location = new System.Drawing.Point(376, 170);
             this.btnRemoveBill.Name = "btnRemoveBill";
-            this.btnRemoveBill.Size = new System.Drawing.Size(151, 44);
+            this.btnRemoveBill.Size = new System.Drawing.Size(159, 44);
             this.btnRemoveBill.TabIndex = 10;
             this.btnRemoveBill.Text = "Remove Payment";
             this.btnRemoveBill.UseVisualStyleBackColor = false;
@@ -227,7 +228,7 @@
             this.btnCreateBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(162)))), ((int)(((byte)(189)))));
             this.btnCreateBill.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnCreateBill.ForeColor = System.Drawing.Color.Black;
-            this.btnCreateBill.Location = new System.Drawing.Point(240, 170);
+            this.btnCreateBill.Location = new System.Drawing.Point(237, 170);
             this.btnCreateBill.Name = "btnCreateBill";
             this.btnCreateBill.Size = new System.Drawing.Size(133, 44);
             this.btnCreateBill.TabIndex = 9;
@@ -240,9 +241,9 @@
             this.btnBillList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(162)))), ((int)(((byte)(189)))));
             this.btnBillList.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnBillList.ForeColor = System.Drawing.Color.Black;
-            this.btnBillList.Location = new System.Drawing.Point(124, 169);
+            this.btnBillList.Location = new System.Drawing.Point(103, 169);
             this.btnBillList.Name = "btnBillList";
-            this.btnBillList.Size = new System.Drawing.Size(110, 44);
+            this.btnBillList.Size = new System.Drawing.Size(128, 44);
             this.btnBillList.TabIndex = 8;
             this.btnBillList.Text = "Payment List";
             this.btnBillList.UseVisualStyleBackColor = false;
@@ -252,16 +253,16 @@
             // 
             this.txtBillPeriod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(106)))), ((int)(((byte)(186)))));
             this.txtBillPeriod.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtBillPeriod.Location = new System.Drawing.Point(116, 131);
+            this.txtBillPeriod.Location = new System.Drawing.Point(106, 131);
             this.txtBillPeriod.Name = "txtBillPeriod";
-            this.txtBillPeriod.Size = new System.Drawing.Size(568, 32);
+            this.txtBillPeriod.Size = new System.Drawing.Size(585, 32);
             this.txtBillPeriod.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(54, 135);
+            this.label4.Location = new System.Drawing.Point(37, 135);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(60, 21);
             this.label4.TabIndex = 6;
@@ -271,16 +272,16 @@
             // 
             this.txtBillAmount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(106)))), ((int)(((byte)(186)))));
             this.txtBillAmount.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtBillAmount.Location = new System.Drawing.Point(116, 93);
+            this.txtBillAmount.Location = new System.Drawing.Point(106, 93);
             this.txtBillAmount.Name = "txtBillAmount";
-            this.txtBillAmount.Size = new System.Drawing.Size(568, 32);
+            this.txtBillAmount.Size = new System.Drawing.Size(585, 32);
             this.txtBillAmount.TabIndex = 5;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(42, 96);
+            this.label3.Location = new System.Drawing.Point(25, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(72, 21);
             this.label3.TabIndex = 4;
@@ -290,16 +291,16 @@
             // 
             this.txtBillTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(106)))), ((int)(((byte)(186)))));
             this.txtBillTitle.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtBillTitle.Location = new System.Drawing.Point(116, 55);
+            this.txtBillTitle.Location = new System.Drawing.Point(106, 55);
             this.txtBillTitle.Name = "txtBillTitle";
-            this.txtBillTitle.Size = new System.Drawing.Size(568, 32);
+            this.txtBillTitle.Size = new System.Drawing.Size(585, 32);
             this.txtBillTitle.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(69, 59);
+            this.label2.Location = new System.Drawing.Point(52, 59);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 21);
             this.label2.TabIndex = 2;
@@ -309,16 +310,16 @@
             // 
             this.txtBillId.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(106)))), ((int)(((byte)(186)))));
             this.txtBillId.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtBillId.Location = new System.Drawing.Point(116, 17);
+            this.txtBillId.Location = new System.Drawing.Point(106, 17);
             this.txtBillId.Name = "txtBillId";
-            this.txtBillId.Size = new System.Drawing.Size(568, 32);
+            this.txtBillId.Size = new System.Drawing.Size(585, 32);
             this.txtBillId.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(20, 23);
+            this.label1.Location = new System.Drawing.Point(3, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 21);
             this.label1.TabIndex = 0;

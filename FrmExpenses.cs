@@ -66,6 +66,13 @@ namespace FinancialCrm
             frm.Show();
             this.Hide();
         }
+
+        private void btnAccountActivitiesForm_Click(object sender, System.EventArgs e)
+        {
+            FrmAccountActivities frm = new FrmAccountActivities();
+            frm.Show();
+            this.Hide();
+        }
     }
 }
 
