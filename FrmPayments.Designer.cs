@@ -192,7 +192,7 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.txtBillId);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(225, 1);
+            this.panel2.Location = new System.Drawing.Point(232, 1);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(698, 227);
             this.panel2.TabIndex = 9;
@@ -328,7 +328,7 @@
             // panel3
             // 
             this.panel3.Controls.Add(this.dataGridView1);
-            this.panel3.Location = new System.Drawing.Point(225, 234);
+            this.panel3.Location = new System.Drawing.Point(232, 234);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(698, 274);
             this.panel3.TabIndex = 10;
@@ -351,7 +351,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(162)))), ((int)(((byte)(189)))));
-            this.ClientSize = new System.Drawing.Size(928, 506);
+            this.ClientSize = new System.Drawing.Size(943, 489);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

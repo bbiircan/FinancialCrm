@@ -54,7 +54,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(787, 30);
+            this.panel2.Size = new System.Drawing.Size(947, 30);
             this.panel2.TabIndex = 10;
             // 
             // label1
@@ -231,14 +231,14 @@
             this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(543, 455);
+            this.dataGridView1.Size = new System.Drawing.Size(723, 455);
             this.dataGridView1.TabIndex = 11;
             // 
             // FrmExpenses
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(770, 491);
+            this.ClientSize = new System.Drawing.Size(943, 489);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

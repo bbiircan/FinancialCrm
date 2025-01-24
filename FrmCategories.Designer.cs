@@ -199,7 +199,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(861, 41);
+            this.panel2.Size = new System.Drawing.Size(946, 41);
             this.panel2.TabIndex = 10;
             // 
             // label1
@@ -217,7 +217,7 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.LightSlateGray;
             this.panel4.Controls.Add(this.lblCategory2);
-            this.panel4.Location = new System.Drawing.Point(441, 51);
+            this.panel4.Location = new System.Drawing.Point(483, 51);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(200, 100);
             this.panel4.TabIndex = 12;
@@ -257,7 +257,7 @@
             // 
             this.panel6.BackColor = System.Drawing.Color.LightSlateGray;
             this.panel6.Controls.Add(this.lblCategory4);
-            this.panel6.Location = new System.Drawing.Point(441, 159);
+            this.panel6.Location = new System.Drawing.Point(483, 159);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(200, 100);
             this.panel6.TabIndex = 14;
@@ -277,7 +277,7 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.LightSlateGray;
             this.panel7.Controls.Add(this.lblCategory3);
-            this.panel7.Location = new System.Drawing.Point(652, 51);
+            this.panel7.Location = new System.Drawing.Point(731, 51);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(200, 100);
             this.panel7.TabIndex = 13;
@@ -297,7 +297,7 @@
             // 
             this.panel5.BackColor = System.Drawing.Color.LightSlateGray;
             this.panel5.Controls.Add(this.lblCategory6);
-            this.panel5.Location = new System.Drawing.Point(652, 158);
+            this.panel5.Location = new System.Drawing.Point(731, 158);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(200, 100);
             this.panel5.TabIndex = 14;
@@ -346,7 +346,7 @@
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(622, 204);
+            this.chart1.Size = new System.Drawing.Size(701, 218);
             this.chart1.TabIndex = 15;
             this.chart1.Text = "chart1";
             // 
@@ -354,7 +354,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(860, 482);
+            this.ClientSize = new System.Drawing.Size(943, 489);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel8);

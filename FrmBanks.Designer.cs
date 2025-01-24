@@ -200,7 +200,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(-1, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(847, 41);
+            this.panel2.Size = new System.Drawing.Size(946, 41);
             this.panel2.TabIndex = 1;
             // 
             // label1
@@ -219,9 +219,9 @@
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(0)))), ((int)(((byte)(82)))));
             this.panel3.Controls.Add(this.lblQnbBalance);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(227, 59);
+            this.panel3.Location = new System.Drawing.Point(229, 59);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 100);
+            this.panel3.Size = new System.Drawing.Size(211, 100);
             this.panel3.TabIndex = 2;
             // 
             // lblQnbBalance
@@ -251,9 +251,9 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(185)))), ((int)(((byte)(19)))));
             this.panel4.Controls.Add(this.lblVakifBankBalance);
             this.panel4.Controls.Add(this.label5);
-            this.panel4.Location = new System.Drawing.Point(433, 59);
+            this.panel4.Location = new System.Drawing.Point(475, 59);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 100);
+            this.panel4.Size = new System.Drawing.Size(211, 100);
             this.panel4.TabIndex = 5;
             // 
             // lblVakifBankBalance
@@ -283,9 +283,9 @@
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(49)))), ((int)(((byte)(36)))));
             this.panel5.Controls.Add(this.lblAkbankBalance);
             this.panel5.Controls.Add(this.label7);
-            this.panel5.Location = new System.Drawing.Point(639, 59);
+            this.panel5.Location = new System.Drawing.Point(720, 59);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 100);
+            this.panel5.Size = new System.Drawing.Size(211, 100);
             this.panel5.TabIndex = 6;
             // 
             // lblAkbankBalance
@@ -324,9 +324,9 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.lblBankProcess1);
             this.groupBox1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox1.Location = new System.Drawing.Point(226, 182);
+            this.groupBox1.Location = new System.Drawing.Point(229, 182);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(613, 306);
+            this.groupBox1.Size = new System.Drawing.Size(702, 306);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Last 5 Account Activities";
@@ -441,7 +441,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(238)))), ((int)(((byte)(249)))));
-            this.ClientSize = new System.Drawing.Size(846, 486);
+            this.ClientSize = new System.Drawing.Size(943, 489);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);

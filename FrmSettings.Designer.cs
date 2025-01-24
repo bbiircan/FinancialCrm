@@ -188,7 +188,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(-1, -1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(847, 41);
+            this.panel2.Size = new System.Drawing.Size(946, 41);
             this.panel2.TabIndex = 17;
             // 
             // label1
@@ -212,7 +212,7 @@
             this.panel3.Controls.Add(this.txtNewPass);
             this.panel3.Controls.Add(this.lblCurrentPass);
             this.panel3.Controls.Add(this.txtCurrentPass);
-            this.panel3.Location = new System.Drawing.Point(291, 128);
+            this.panel3.Location = new System.Drawing.Point(362, 128);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(430, 281);
             this.panel3.TabIndex = 18;
@@ -290,7 +290,7 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(54)))), ((int)(((byte)(130)))));
             this.panel4.Controls.Add(this.label2);
-            this.panel4.Location = new System.Drawing.Point(291, 128);
+            this.panel4.Location = new System.Drawing.Point(362, 128);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(430, 41);
             this.panel4.TabIndex = 18;
@@ -310,7 +310,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 484);
+            this.ClientSize = new System.Drawing.Size(943, 489);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
